@@ -13,7 +13,7 @@ li{
     list-style: square;
 }
 #msg{
-    font-family: monospace;
+    font-family: helvetica;
 }
 :root{
     --green: #00ff00;
@@ -51,4 +51,29 @@ li{
     justify-content: space-between;
     align-items: flex-start;
     max-width: 420px;
+}
+.input-container{
+    display: flex;
+    padding: 10px;
+    
+}
+input{
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px 50px;
+    width: 300px;   
+}
+button{
+    background-color: #fff;
+    color: #000000;
+    border: none;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+input:focus{
+    border-color: #444;
 }
